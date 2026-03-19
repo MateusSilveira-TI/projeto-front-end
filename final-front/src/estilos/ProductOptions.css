@@ -1,0 +1,42 @@
+.product-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.option-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    font-size: 16px;
+    color: #474747;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+
+.option-item.square {
+    width: 48px;
+    height: 48px;
+}
+
+
+.option-item.circle {
+    width: 31px;
+    height: 31px;
+}
+
+
+.option-item.selected {
+    border: 2px solid var(--primary, #C92071) !important;
+    color: var(--primary, #C92071);
+}
+
+
+.option-item.circle.selected {
+    outline: 2px solid var(--primary, #C92071);
+    outline-offset: 2px;
+}

@@ -1,0 +1,115 @@
+.special-offer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #FFFFFF;
+    padding: 80px 40px;
+    margin-top: 60px; 
+    margin-bottom: 60px;
+}
+
+
+.special-offer-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.ellipse-bg {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.1) 0%, rgba(71, 71, 71, 0) 100%);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.special-offer-image img {
+    position: relative;
+    z-index: 2; 
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+    object-fit: contain;
+}
+
+
+.special-offer-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.offer-highlight {
+    color: var(--primary, #C92071);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.offer-title {
+    font-size: 48px;
+    line-height: 1.1;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.offer-description {
+    font-size: 16px;
+    color: #474747;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    max-width: 90%;
+}
+
+.offer-button {
+    background-color: var(--primary, #C92071);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.offer-button:hover {
+    background-color: #991956;
+}
+
+
+@media (max-width: 900px) {
+    .special-offer-container {
+        flex-direction: column-reverse; 
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .special-offer-info {
+        align-items: center; 
+    }
+
+    .offer-title {
+        font-size: 32px;
+    }
+
+    .ellipse-bg {
+        width: 300px;
+        height: 300px;
+    }
+    .special-offer-image {
+    flex: 1;
+    order: 1;
+    border-radius: 5px ;
+    }
+    .special-offer-image img {
+    border-radius: 10px ;
+}
+}
