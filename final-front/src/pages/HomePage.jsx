@@ -35,14 +35,14 @@ const HomePage = () => {
   ];
 
   const productList = [
-    { name: "K-Swiss V8 - Masculino", image: "./public/home-slide-1.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "./public/home-slide-2.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "./public/home-slide-3.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "./public/home-slide-4.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "./public/home-slide-5.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "./public/home-slide-6.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "./public/home-slide-7.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "./public/home-slide-8.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/home-slide-1.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/home-slide-2.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/home-slide-3.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/home-slide-4.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/home-slide-5.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/home-slide-6.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/home-slide-7.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/home-slide-8.jpeg", price: 200, priceDiscount: 149.9 },
   ];
 
   return (
