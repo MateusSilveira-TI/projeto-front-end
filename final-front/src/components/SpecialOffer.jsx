@@ -9,7 +9,7 @@ const SpecialOffer = () => {
        
         <div className="ellipse-bg"></div>
         <img 
-          src="./public/produc-image-1.jpeg" 
+          src="/produc-image-1.jpeg" 
           alt="Oferta Especial" 
         />
       </div>

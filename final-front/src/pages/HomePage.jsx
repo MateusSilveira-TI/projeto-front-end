@@ -12,21 +12,21 @@ const HomePage = () => {
   
   const homeSlides = [
     {
-      src: "./public/produc-image-1.jpeg",
+      src: "/produc-image-1.jpeg",
       title: "Queima de Estoque Nike",
       description: "Conforto e estilo para suas corridas diárias com a melhor tecnologia de amortecimento.",
       buttonText: "Ver Ofertas Nike",
       link: "/products?brand=nike"
     },
     {
-      src: "./public/produc-image-2.jpeg",
+      src: "/produc-image-2.jpeg",
       title: "Coleção Adidas 2024",
       description: "A nova linha street wear da Adidas chegou com designs exclusivos e limitados.",
       buttonText: "Ver Coleção",
       link: "/products?brand=adidas"
     },
     {
-      src: "./public/produc-image-3.jpeg",
+      src: "/produc-image-3.jpeg",
       title: "Headphones Pro",
       description: "Música em alta definição sem ruídos externos. A imersão que você procurava.",
       buttonText: "Comprar Agora",
@@ -115,7 +115,7 @@ const HomePage = () => {
       >
         <div>
           <ul>
-            <li><a href="./public/polo-shirt_957057.png"></a></li>
+            <li><a href="/polo-shirt_957057.png"></a></li>
 
           </ul>
         </div>

@@ -9,10 +9,10 @@ const ProductListingPage = () => {
 
   
   const products = [
-    { name: "K-Swiss V8 - Masculino", image: "./produc-image-1.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "./public/produc-image-2.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "./public/produc-image-3.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "./public/produc-image-4.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/produc-image-1.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/produc-image-2.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/produc-image-3.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/produc-image-4.jpeg", price: 200, priceDiscount: 149.9 },
   ];
 
   return (

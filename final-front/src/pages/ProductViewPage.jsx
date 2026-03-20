@@ -9,19 +9,19 @@ import BuyBox from "../components/BuyBox";
 const ProductViewPage = () => {
   
  const productImages = [
-    { src: "../public/produc-image-1.jpeg" },
-    { src: "../public/produc-image-2.jpeg" },
-    { src: "../public/produc-image-3.jpeg" },
-    { src: "../public/produc-image-4.jpeg" },
-    { src: "../public/produc-image-5.jpeg" },
+    { src: "/produc-image-1.jpeg" },
+    { src: "/produc-image-2.jpeg" },
+    { src: "/produc-image-3.jpeg" },
+    { src: "/produc-image-4.jpeg" },
+    { src: "/produc-image-5.jpeg" },
   ];
 
 
   const relatedProducts = [
-    { name: "K-Swiss V8 - Masculino", image: "../public/product-thumb-1.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "../public/product-thumb-2.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "../public/product-thumb-3.jpeg", price: 200, priceDiscount: 149.9 },
-    { name: "K-Swiss V8 - Masculino", image: "../public/product-thumb-4.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/product-thumb-1.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/product-thumb-2.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/product-thumb-3.jpeg", price: 200, priceDiscount: 149.9 },
+    { name: "K-Swiss V8 - Masculino", image: "/product-thumb-4.jpeg", price: 200, priceDiscount: 149.9 },
   ];
 
   return (
