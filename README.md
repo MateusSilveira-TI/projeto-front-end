@@ -3,13 +3,13 @@ Nome: Antonio Mateus De Sousa Silveira
 
 Tecnologias Utilizadas:
 
-  HTML5 e CSS3 (Semântico e Responsivo)
+    HTML5 e CSS3 (Semântico e Responsivo)
 
-  JavaScript
+    JavaScript
 
-  Estruturação de Componentes e Páginas
+    Estruturação de Componentes e Páginas
 
-  Gerenciamento de Imagens e Assets Visuais
+    Gerenciamento de Imagens e Assets Visuais
 
 Funcionalidades: 
   Página Inicial (Home): Vitrine de produtos em destaque e banners promocionais.
